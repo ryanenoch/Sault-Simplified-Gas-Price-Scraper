@@ -36,9 +36,6 @@ for city in cities:
 
 gasdata = gasdata.replace("Thessalon ,Esso","Thessalon Esso")
 
-#print(gasdata)
-#print(type(items.text)) #<class 'str'>
-
 #Copies Gas Station Data to CSV (can be used for diagnosis)
 text_file = open("ssmgas.csv", "w")
 n = text_file.write(gasdata)
